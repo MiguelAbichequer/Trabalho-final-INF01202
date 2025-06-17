@@ -5,7 +5,7 @@ int main()
     
     Texture2D texture_player = LoadTexture("path_file.png");
     
-    Sprite player;
+    Sprite player; // a estrutura sprite é definida no cabeçalho. Possui dois campos: textura "hitbox".
     Rectangle retangulo;
     
     player.texture = texture_player;
