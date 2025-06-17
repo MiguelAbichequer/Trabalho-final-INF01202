@@ -6,7 +6,7 @@ int main()
 
     InitWindow(600, 400, "Hello_World");
     
-    Texture2D texture_player = LoadTexture("path_file.png");
+    Texture2D texture_player = LoadTexture("path_file.png"); // um png será carregado como textura para o jogador.
     
     Sprite player; // a estrutura sprite é definida no cabeçalho. Possui dois campos: textura "hitbox".
     Rectangle retangulo;
