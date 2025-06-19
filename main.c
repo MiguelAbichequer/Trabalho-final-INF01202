@@ -15,7 +15,7 @@ int main()
 
     Rectangle retangulo;
 
-    float angulo;
+    float angulo; // ângulo de rotação do carro. Esse valor muda conforme o movimento dele.
 
 
 
