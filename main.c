@@ -5,8 +5,10 @@ int main()
 {
 
     InitWindow(600, 400, "Hello_World");
+
+    Image imagem = GenImageColor(20, 20, RED); // gerar provisoriamente uma imagem como textura.
     
-    Texture2D texture_player = LoadTexture("path_file.png"); // um png será carregado como textura para o jogador.
+    Texture2D texture_player = LoadTextureFromImage(imagem); // um png será carregado como textura para o jogador.
     
     Sprite player; // a estrutura sprite é definida no cabeçalho. Possui dois campos: textura e "hitbox".
     Rectangle retangulo;
