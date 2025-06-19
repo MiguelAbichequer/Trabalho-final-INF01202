@@ -7,12 +7,15 @@ int main()
 
     InitWindow(600, 400, "Hello_World");
 
-    Image imagem = GenImageColor(20, 20, RED); // gerar provisoriamente uma imagem como textura.
+    Image imagem = GenImageColor(40, 30, RED); // gerar provisoriamente uma imagem como textura.
 
     Texture2D texture_player = LoadTextureFromImage(imagem); // um png será carregado como textura para o jogador.
 
     Sprite player;
+
     Rectangle retangulo;
+
+
 
     player.texture = texture_player;
 
@@ -23,14 +26,34 @@ int main()
 
     player.dest_rect = retangulo; // a hitbox do jogador será o retângulo informado acima.
 
+    Rectangle source_rect = {0.0f, 0.0f, (float)player.texture.width, (float)player.texture.height};
+    Vector2 origin = {0.0f, 0.0f};
+
 
     while(!WindowShouldClose())
     {
+        // atualizar
+
+        move_player(&player);
+
+
+
+        // desenhar
+
         BeginDrawing();
 
         ClearBackground(SKYBLUE);
 
-        DrawTexturePro(player.texture, {0,0, 16,16), player.dest_rect, {0,0}, 0.0f, RAYWHITE);
+
+        // player.texture: A textura a ser desenhada.
+        // source_rect: A parte da textura original a ser usada.
+        // player.dest_rect: Onde e com que tamanho desenhar na tela (já atualizado pelo move_player).
+        // origin: Ponto de referência para rotação.
+        // 0.0f: Ângulo de rotação.
+        // RAYWHITE: Cor de tingimento (mantém as cores originais).
+
+        DrawTexturePro(player.texture, source_rect, player.dest_rect, origin, 0.0, RAYWHITE);
+
 
         EndDrawing();
     }
