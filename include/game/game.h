@@ -6,7 +6,8 @@
 #define A 20 // altura e largura da tela
 #define L 80
 
-#include "LerMapa.c"
+#include "read_map.c"
+#include "player_movement.c"
 
 #define FALSE 0
 #define TRUE 1
