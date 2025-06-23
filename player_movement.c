@@ -15,14 +15,14 @@ void move_player(Sprite* player, float *angulo)
     if(IsKeyDown(KEY_S))
     {
         player->dest_rect.y = player->dest_rect.y + VEL * GetFrameTime();
-        *angulo = *angulo + ROT;
+        
 
     }
     if(IsKeyDown(KEY_W))
     {
         player->dest_rect.y = player->dest_rect.y - VEL * GetFrameTime();
 
-        *angulo = *angulo + ROT;
+        
 
     }
 }
