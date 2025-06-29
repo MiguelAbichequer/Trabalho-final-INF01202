@@ -1,4 +1,6 @@
-void LeMapa(char nome_arq[], char matrix[A][L])
+#include "LerMapa.h"
+
+int LeMapa(char nome_arq[], char matrix[A][L])
 {
     FILE *arq;
 
@@ -9,6 +11,7 @@ void LeMapa(char nome_arq[], char matrix[A][L])
     if(arq == NULL)
     {
         printf("ERRO");
+        return 0;
     }
     else
     {
@@ -22,5 +25,6 @@ void LeMapa(char nome_arq[], char matrix[A][L])
         }
 
         fclose(arq);
+        return 1;
     }
 }

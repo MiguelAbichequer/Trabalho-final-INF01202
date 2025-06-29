@@ -18,7 +18,7 @@ void desenhar_mapa(char matriz[][L], Jogador *player)
                 case 'i':
                     break;
                 case 'j':
-                    break; //outra funcao devera desenhar o jogador na tela
+                    break;
                 case ' ':
                     DrawRectangle(x, y, TAMANHO_BLOCO, TAMANHO_BLOCO, LIGHTGRAY);
                     break;
@@ -28,4 +28,3 @@ void desenhar_mapa(char matriz[][L], Jogador *player)
         }
     }
 }
-// a função deverá desenhar o mapa correspondente.

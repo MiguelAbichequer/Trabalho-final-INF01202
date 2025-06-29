@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1751208567 source:c:\raylib\jogoprincipal\main.c
+	"game.h"
+
+1751208788 c:\raylib\jogoprincipal\game.h
+	"raylib.h"
+	<stdio.h>
+	<math.h>
+	<string.h>
+
+1750997273 source:c:\raylib\jogoprincipal\lermapa.c
+	"LerMapa.h"
+
+1750994188 c:\raylib\jogoprincipal\lermapa.h
+	"game.h"
+
+1750996020 source:c:\raylib\jogoprincipal\menu.c
+	"Menu.h"
+
+1750994304 c:\raylib\jogoprincipal\menu.h
+	"game.h"
+
+1751208832 source:c:\raylib\jogoprincipal\desenharmapa.c
+	"DesenharMapa.h"
+
+1750997754 c:\raylib\jogoprincipal\desenharmapa.h
+	"game.h"
+
+1751206567 source:c:\raylib\jogoprincipal\movimentojogador.c
+	"MovimentoJogador.h"
+
+1751034528 c:\raylib\jogoprincipal\movimentojogador.h
+	"game.h"
+
+1751034497 source:c:\raylib\jogoprincipal\desenharjogador.c
+	"raylib.h"
+	"game.h"
+
+1751035253 source:c:\raylib\jogoprincipal\inicializarjogador.c
+	"InicializarJogador.h"
+
+1751034270 c:\raylib\jogoprincipal\inicializarjogador.h
+	"game.h"
+
+1751037952 source:c:\raylib\jogoprincipal\definirposinicial.c
+	"DefinirPosInicial.h"
+
+1751037013 c:\raylib\jogoprincipal\definirposinicial.h
+	"game.h"
+
+1751208564 source:c:\raylib\jogoprincipal\inimigo.c
+	"game.h"
+
+1751208868 source:c:\raylib\jogoprincipal\inicialiazarinimigos.c
+
