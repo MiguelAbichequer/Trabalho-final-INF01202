@@ -9,10 +9,10 @@ void definirPosicaoInicial(char matriz[A][L], Jogador *player)
             // procura pelo caractere do jogador
             if (matriz[i][j] == 'j')
             {
-                // define a posição inicial e para de procurar
+                
                 player->position.x = j * TAMANHO_BLOCO + TAMANHO_BLOCO / 2.0f;
                 player->position.y = i * TAMANHO_BLOCO + TAMANHO_BLOCO / 2.0f;
-                return; // encontrou, pode sair da função
+                return; 
             }
         }
     }
