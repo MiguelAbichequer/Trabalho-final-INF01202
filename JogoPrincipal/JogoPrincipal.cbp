@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Atirar.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="DefinirPosInicial.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -49,6 +52,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="InicializarJogador.h" />
+		<Unit filename="InicializarTiro.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="LerMapa.c">
 			<Option compilerVar="CC" />
 		</Unit>

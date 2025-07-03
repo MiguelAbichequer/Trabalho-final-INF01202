@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1751208567 source:c:\raylib\jogoprincipal\main.c
+1751400157 source:c:\raylib\jogoprincipal\main.c
 	"game.h"
 
-1751208788 c:\raylib\jogoprincipal\game.h
+1751406406 c:\raylib\jogoprincipal\game.h
 	"raylib.h"
 	<stdio.h>
 	<math.h>
@@ -48,8 +48,15 @@
 1751037013 c:\raylib\jogoprincipal\definirposinicial.h
 	"game.h"
 
-1751208564 source:c:\raylib\jogoprincipal\inimigo.c
+1751415407 source:c:\raylib\jogoprincipal\inimigo.c
+
+1751404207 source:c:\raylib\jogoprincipal\inicialiazarinimigos.c
 	"game.h"
 
-1751208868 source:c:\raylib\jogoprincipal\inicialiazarinimigos.c
+1751297725 source:c:\raylib\jogoprincipal\inicializartiro.c
+	"game.h"
+
+1751499903 source:c:\raylib\jogoprincipal\atirar.c
+	"game.h"
+	<math.h>
 
