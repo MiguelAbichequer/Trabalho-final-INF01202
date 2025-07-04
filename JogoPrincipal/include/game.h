@@ -1,20 +1,17 @@
-// game.h
-
-#ifndef GAME_H
-#define GAME_H
-
 #include "raylib.h"
 #include <stdio.h>
-#include <math.h> // Essencial para a função sqrtf()
+#include <math.h>
 #include <string.h>
+#include <stdlib.h>
+#include <time.h>
 
 #define A 20
 #define L 80
 #define TAMANHO_BLOCO 20
-#define PLAYER_SPEED 30
+#define PLAYER_SPEED 300
 #define NUM_SHOOTS 1000
+#define MAX_INIMIGOS 10
 
-// --- Constantes dos Inimigos ---
 #define MAX_INIMIGOS 10
 #define VELOCIDADE_INIMIGO 100
 #define RAIO_DETECCAO_INIMIGO 250.0f
@@ -33,10 +30,10 @@ typedef struct Player {
 
 typedef struct Inimigo {
     Vector2 position;
-    float speed;
-    float size;
+    Rectangle rec;
     bool active;
     Color color;
+    float moveTimer;
 } Inimigo;
 
 typedef struct {
@@ -53,10 +50,11 @@ int menu(char nome_arquivo_mapa[]);
 void desenhar_mapa(char matriz[][L], Jogador *player);
 
 
+
 // funcoes jogador
 
 void desenhar_jogador(Jogador player);
-void movimentoJogador(Jogador *player);
+void movimentoJogador(Jogador *player, char matriz[A][L]);
 Jogador iniciarJogador(Jogador player);
 void definirPosicaoInicial(char matriz[A][L], Jogador *player);
 void iniciarTiros(Shoot tiros[], Jogador player);
@@ -64,8 +62,7 @@ void atirar(Shoot *tiro, int num_shoots, Jogador player, int *shootRate);
 
 
 // Funções dos Inimigos
-void inicializarInimigos(char matriz[A][L], Inimigo inimigos[], int *totalInimigos);
+void iniciarInimigos(char matriz[A][L], Inimigo inimigos[], int maxInimigos);
 void atualizarInimigos(Inimigo inimigos[], int totalInimigos, Vector2 posJogador, char matriz[A][L]);
 void desenharInimigos(Inimigo inimigos[], int totalInimigos);
-
-#endif // GAME_H
+void movimentoInimigo(Inimigo *inimigo, char matriz[A][L]);

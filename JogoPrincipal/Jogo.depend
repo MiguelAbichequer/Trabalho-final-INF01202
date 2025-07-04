@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1751499903 source:c:\users\usuário\desktop\jogo\atirar.c
+	"game.h"
+	<math.h>
+
+1751591403 c:\users\usuário\desktop\jogo\game.h
+	"raylib.h"
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
+1751037952 source:c:\users\usuário\desktop\jogo\definirposinicial.c
+	"DefinirPosInicial.h"
+
+1751037013 c:\users\usuário\desktop\jogo\definirposinicial.h
+	"game.h"
+
+1751034497 source:c:\users\usuário\desktop\jogo\desenharjogador.c
+	"raylib.h"
+	"game.h"
+
+1751577604 source:c:\users\usuário\desktop\jogo\desenharmapa.c
+	"DesenharMapa.h"
+
+1750997754 c:\users\usuário\desktop\jogo\desenharmapa.h
+	"game.h"
+
+1751577562 source:c:\users\usuário\desktop\jogo\inicialiazarinimigos.c
+	"inimigo.h"
+
+1751035253 source:c:\users\usuário\desktop\jogo\inicializarjogador.c
+	"InicializarJogador.h"
+
+1751034270 c:\users\usuário\desktop\jogo\inicializarjogador.h
+	"game.h"
+
+1751297725 source:c:\users\usuário\desktop\jogo\inicializartiro.c
+	"game.h"
+
+1751415407 source:c:\users\usuário\desktop\jogo\inimigo.c
+
+1750997273 source:c:\users\usuário\desktop\jogo\lermapa.c
+	"LerMapa.h"
+
+1750994188 c:\users\usuário\desktop\jogo\lermapa.h
+	"game.h"
+
+1751591359 source:c:\users\usuário\desktop\jogo\main.c
+	"game.h"
+
+1750996020 source:c:\users\usuário\desktop\jogo\menu.c
+	"Menu.h"
+
+1750994304 c:\users\usuário\desktop\jogo\menu.h
+	"game.h"
+
+1751591132 source:c:\users\usuário\desktop\jogo\movimentojogador.c
+	"MovimentoJogador.h"
+
+1751034528 c:\users\usuário\desktop\jogo\movimentojogador.h
+	"game.h"
+
+1751577627 c:\users\usuário\desktop\jogo\inimigo.h
+	"game.h"
+
+1751581463 source:c:\users\usuário\desktop\jogo\desenharinimigo.c
+	"game.h"
+
+1751577852 source:c:\users\usuário\desktop\jogo\movimentoinimigo.c
+	"inimigo.h"
+
+1751499903 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\atirar.c
+	"game.h"
+	<math.h>
+
+1751593922 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\game.h
+	"raylib.h"
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+
+1751592778 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\definirposinicial.c
+	"DefinirPosInicial.h"
+
+1751037013 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\definirposinicial.h
+	"game.h"
+
+1751592523 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\desenharinimigo.c
+	"game.h"
+
+1751034497 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\desenharjogador.c
+	"raylib.h"
+	"game.h"
+
+1751592544 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\desenharmapa.c
+	"DesenharMapa.h"
+
+1750997754 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\desenharmapa.h
+	"game.h"
+
+1751577562 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inicialiazarinimigos.c
+	"inimigo.h"
+
+1751577627 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inimigo.h
+	"game.h"
+
+1751297725 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inicializartiro.c
+	"game.h"
+
+1751415407 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inimigo.c
+
+1750997273 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\lermapa.c
+	"LerMapa.h"
+
+1750994188 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\lermapa.h
+	"game.h"
+
+1750996020 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\menu.c
+	"Menu.h"
+
+1750994304 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\menu.h
+	"game.h"
+
+1751592870 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\movimentoinimigo.c
+	"inimigo.h"
+
+1751592479 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inicializarjogador.c
+	"InicializarJogador.h"
+
+1751034270 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\inicializarjogador.h
+	"game.h"
+
+1751594167 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\main.c
+	"game.h"
+
+1751592966 source:c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\movimentojogador.c
+	"MovimentoJogador.h"
+
+1751034528 c:\users\usuário\desktop\gitinf\trabalho-final-inf01202\jogoprincipal\functions\movimentojogador.h
+	"game.h"
+

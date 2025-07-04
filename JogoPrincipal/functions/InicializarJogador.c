@@ -4,6 +4,8 @@ Jogador iniciarJogador(Jogador player)
 {
     float shipHeight;
 
+    // inicializaremos o jogador com valores aleatórios.
+
     shipHeight = TAMANHO_BLOCO;
 
     player.position = (Vector2){0, 0};

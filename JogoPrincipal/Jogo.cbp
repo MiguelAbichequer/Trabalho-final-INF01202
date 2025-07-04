@@ -2,30 +2,13 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="JogoPrincipal" />
-		<Option pch_mode="2" />
+		<Option title="Jogo" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Debug">
-				<Option output="bin/Debug/JogoPrincipal" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
-				<Option type="1" />
+			<Target title="default">
+				<Option output="Jogo" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-				</Compiler>
-			</Target>
-			<Target title="Release">
-				<Option output="bin/Release/JogoPrincipal" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-O2" />
-				</Compiler>
-				<Linker>
-					<Add option="-s" />
-				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
@@ -37,45 +20,43 @@
 		<Unit filename="DefinirPosInicial.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="DefinirPosInicial.h" />
+		<Unit filename="DesenharInimigo.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="DesenharJogador.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="DesenharMapa.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="DesenharMapa.h" />
 		<Unit filename="InicialiazarInimigos.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="InicializarJogador.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="InicializarJogador.h" />
 		<Unit filename="InicializarTiro.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="LerMapa.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="LerMapa.h" />
 		<Unit filename="Menu.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Menu.h" />
 		<Unit filename="MovimentoJogador.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="MovimentoJogador.h" />
-		<Unit filename="game.h" />
 		<Unit filename="inimigo.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="inimigo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
+		<Unit filename="movimentoInimigo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
